@@ -16,6 +16,6 @@
   ],
   "dependencies": {
     "less": "1.7.4",
-    "bootstrap": "3.2.0"
+    "jquery": "2.1.1"
   }
 }
