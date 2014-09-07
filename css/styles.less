@@ -45,6 +45,28 @@ header {
     height: 500px;
     padding-top: 70px;
   }
+
+  @gotitMargin: -60px;
+
+  .gotit {
+    margin: 0 auto;
+    width: 80px;
+    position: relative;
+    top: @gotitMargin;
+    margin-bottom: @gotitMargin;
+  }
+
+  .code {
+    background: url('/blog/images/code.png');
+    background-repeat: no-repeat;
+  }
+
+  .java {
+    position: absolute;
+    width: 682px;
+    left: 10%;
+    top: 80px;
+  }
 }
 
 footer {
@@ -72,6 +94,23 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+  }
+
+  .social-links {
+    a {
+      color: #fff;
+      display: block;
+      margin: 2px;
+
+      &:hover {
+        text-decoration: none;
+        color: #92c4e5;
+      }
+    }
+
+    img {
+      width: 18px;
+    }
   }
 }
 
